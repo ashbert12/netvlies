@@ -1,0 +1,45 @@
+/*
+Theme Name: Film 
+Author: Ashbert
+Author URI: 
+Description: film theme
+Version: 1.0.0
+Tags: custom-background
+*/
+
+nav a{
+	text-decoration: none;
+}
+
+li{
+	display: inline-block;
+}
+
+li:first-child{
+	margin-right: 10px;
+}
+
+figure{
+	width: 175px;
+    height: 250px;
+}
+
+figure > img{
+	width: 100%;
+	height: 100%;
+}
+
+.spacing{
+	margin-bottom: 50px;
+}
+
+.current-menu-item > a{
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 420px){
+.spacing > figure{
+	width: 120px;
+	height: 175px;
+}
+}
